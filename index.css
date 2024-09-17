@@ -3,6 +3,8 @@
   margin: 0px;
   text-decoration: none;
 }
+
+/*Header*/
 header {
   text-align: center;
   color: white;
@@ -11,10 +13,49 @@ header {
   height: 650px;
   font-size: 18px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 20px;
+}
+header a{
+  color: white;
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-around;
+  color: white;
 }
 img{
   max-width: 100%;
 }
+.welcome{
+  align-items: center;
+  text-align: center;
+  margin-top: 15%;
+}
+/*Footer*/
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a{
+  text-align: center;
+  color: white;
+  padding-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer a{
+  color: white;
+}
+
+
+/*Main*/
 main{
   text-align: left;
   line-height: 2;
@@ -23,30 +64,7 @@ main{
   margin-right: auto;
   width: 50%;
 }
-footer{
-  text-align: center;
-  background-color: black;
-  color: white;
-  height: 100px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-nav{
-  padding-top: 10px;
-}
-nav a{
-  text-align: center;
-  color: white;
-  padding-right: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h2,h3{
-  padding-left: 10px;
-}
-.container{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
 .read-more{
   background-color: black;
   color: white;
@@ -58,6 +76,12 @@ h2,h3{
   padding-right: 20px;
   margin-bottom: 30px;
 }
+.main-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 .more-info{
   background-color: saddlebrown;
   color: white;
@@ -67,4 +91,78 @@ h2,h3{
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 20px;
 }
+
+.main-container{
+  display: flex;
+  justify-content: center;
+}
+
+.our-blog-container{
+  width: 65%;
+}
+
+.our-courses-container{
+  width: 35%;
+  margin-left: 20px;
+}
+
+.blog-itema, .blog-itemb{
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.course-item1{
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.about-title{
+  text-align: center;
+}
+
+.about-main{
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.courses-container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.courses-container h2{
+  text-align: center;
+}
+
+.course-itema, .course-itemb{
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+/*contact page*/
+
+.contact-main{
+  font-size: 20px;
+}
+
+.form-container{
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.send-btn{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+
