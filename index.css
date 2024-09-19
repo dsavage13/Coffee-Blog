@@ -5,7 +5,7 @@
 }
 
 /*Header*/
-header {
+.site-header {
   text-align: center;
   color: white;
   background-image: url("coffee-images-main/banner.jpg") ;
@@ -31,6 +31,7 @@ img{
   text-align: center;
   margin-top: 15%;
 }
+
 /*Footer*/
 footer{
   text-align: center;
@@ -53,7 +54,6 @@ nav a{
 footer a{
   color: white;
 }
-
 
 /*Main*/
 main{
@@ -118,6 +118,13 @@ main{
   margin-bottom: 10px;
 }
 
+/*About page*/
+.about-nav{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
 .about-title{
   text-align: center;
 }
@@ -127,7 +134,7 @@ main{
   margin-right: auto;
   width: 65%;
 }
-
+/*Courses page*/
 .courses-container{
   width: 70%;
   margin-left: auto;
@@ -143,26 +150,146 @@ main{
   margin-bottom: 20px;
 }
 
-/*contact page*/
+/*Contact page*/
+.contact-header{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-.contact-main{
-  font-size: 20px;
+.contact-nav{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.contact-h2{
+  text-align: center;
 }
 
 .form-container{
-  background-color: white;
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
-.send-btn{
-  background-color: black;
-  color: white;
-  display: inline-block;
-  font-size: 18px;
-  letter-spacing: 2px;
+.input-control{
+  margin-bottom: 20px;
+  line-height: normal;
+}
+.input-control input, .input-control textarea{
+  width: 65%;
   padding: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 30px;
+  border: 1px solid grey;
+  border-radius: 2px;
 }
 
+.input-control label{
+  font-size: 20px;
+  width: 100px;
+  text-align: right;
+  display: inline-block;
+}
+
+.inputs-container{
+  background-color: white;
+  padding: 30px;
+  margin-top: -80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 125px;
+}
+
+.image-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Read More*/
+.read-main{
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+}
+
+.types{
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.read-header{
+  text-align: center;
+  color: white;
+  background-image: url("coffee-images-main/banner.jpg") ;
+  background-size: cover;
+  height: 400px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 20px;
+}
+
+.read-welcome{
+  margin-top: 100px;
+}
+
+.ingredients{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/*Course Info*/
+.course-infoa, .course-infob, .course-infoc{
+  margin-bottom: 20px;
+}
+
+.course-name{
+  border: solid 1px black;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: saddlebrown;
+  padding: 5px;
+  color: wheat;
+}
+
+.course-p{
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  padding: 5px;
+}
+
+.check-back{
+  text-align: center;
+  font-size: 24px;
+}
+
+/*Classes*/
+.class-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 705px;
+}
+
+.class-main{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.class-p{
+  margin-left: 20px;
+  text-align: center;
+}
+
+.class-title{
+  text-align: center;
+  margin-top: 20px;
+}
